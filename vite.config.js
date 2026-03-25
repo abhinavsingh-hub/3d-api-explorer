@@ -4,6 +4,7 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: '/3d-api-explorer/',
   plugins: [
     react(),
     tailwindcss(),
